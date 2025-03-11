@@ -1,0 +1,123 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+
+  .header a {
+    text-decoration: none;
+    color: #c62828;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+    font-weight: 500;
+}
+
+.header a:hover {
+    background-color: #c62828;
+    color: white;
+    text-shadow: 0 0 5px #c62828;
+}
+
+  .imgatas{
+    width: auto;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+
+  .infografis-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border: 5px solid darkred;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    line-height: 1.8;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .highlight {
+    color: red;
+    font-weight: bold;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+  }
+
+  .one {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .one P{
+    width: 25rem;
+  }
+
+  .one img{
+    border-radius: 10px;
+  }
+
+  footer {
+    background-color: #c62828; /* Warna merah */
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px black;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.three {
+    width: 35rem;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+@media (max-width: 600px) {
+    .infografis-container {
+      padding: 15px;
+    }
+    .header {
+      font-size: 20px;
+    }
+    .content {
+      font-size: 15px;
+    }
+  }
+

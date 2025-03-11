@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 15px;
+    background-color: lightgrey;
+}
+
+.w {
+    margin-left: 2%;
+    text-decoration: none;
+    color: #c62828;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 150px;
+    transition: .5s ease-in-out;
+}
+
+.w:hover {
+    background-color: darkred;
+    color: white;
+    text-shadow: 0 0 5px #c62828;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.judul {
+    padding-left: 15px;
+}
+
+.judul h1{
+    color: aliceblue;
+}
+
+.atas {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkred;
+    border-radius: 50px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: darkred;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.dropdown button {
+    background-color: darkred;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown button:hover {
+    color: white;
+    animation: 3s ease-in-out; 
+}
+
+.isi {
+    margin-top: 2%;
+    border: 0 0 15px;
+    border-color: black;
+    padding: 15px;
+}
+
+.isi h2{
+    text-align: center;
+}
+
+.inti {
+    margin-top: 5%;
+}
+
+.satu {
+    background-color: darkred;
+    border-radius: 50px;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    transition: .4s ease-in-out;
+}
+.satu:hover{
+    width: 425px;
+    height: 325px;
+    transition: .4s ease-in-out;
+    box-shadow: 0 0 20px crimson;
+}
+.satu img {
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.satu a{
+    text-decoration: none;
+    color: white;
+}
+
+.dua {
+    background-color: darkred;
+    border-radius: 50px;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    transition: .4s ease-in-out;
+}
+.dua:hover{
+    width: 425px;
+    height: 325px;
+    transition: .4s ease-in-out;
+    box-shadow: 0 0 20px crimson;
+}
+.dua img {
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.dua a{
+    text-decoration: none;
+    color: white;
+}
+
+.tiga {
+    background-color: darkred;
+    border-radius: 50px;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    transition: .4s ease-in-out;
+}
+.tiga:hover{
+    width: 425px;
+    height: 325px;
+    transition: .4s ease-in-out;
+    box-shadow: 0 0 20px crimson;
+}
+.tiga img {
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.tiga a{
+    text-decoration: none;
+    color: white;
+}
+
+.empat {
+    background-color: darkred;
+    border-radius: 50px;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    transition: .4s ease-in-out;
+}
+.empat:hover{
+    width: 425px;
+    height: 325px;
+    transition: .4s ease-in-out;
+    box-shadow: 0 0 20px crimson;
+}
+.empat img {
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.empat a{
+    text-decoration: none;
+    color: white;
+}
+
+.isi h2 a {
+    text-decoration: none;
+    transition: .4s ease-in-out;
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(192, 0, 0);
+}
+
+.isi h2 a:hover {
+    color: white;
+    background-color: rgb(203, 0, 0);
+}
+
+.inti h3 {
+    color: white;
+}
+
+.timeline {
+    position: relative;
+    padding: 40px 0;
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: darkred;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.card {
+    position: relative;
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 55%;
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+
+    top: 30px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left::after {
+    right: -17px;
+}
+
+.right::after {
+    left: -17px;
+}
+
+
+

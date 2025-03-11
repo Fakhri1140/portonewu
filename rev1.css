@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #c62828; /* Warna merah */
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.header-image {
+    width: 550px; /* Membuat gambar sesuai lebar kontainer */
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kiri a {
+    text-decoration: none;
+    color: #c62828;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 150px;
+    transition: .5s ease-in-out;
+}
+
+.kiri a:hover {
+    background-color: #c62828;
+    color: white;
+    text-shadow: 0 0 5px #c62828;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.content {
+    background-color: #f2f2f2; /* Warna latar belakang abu-abu terang */
+    box-shadow: 0 0 20px black;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.he {
+    text-align: center !important;
+}
+
+.content p, .content ul {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.content ul {
+    margin-left: 20px;
+}
+
+.content-image {
+    width: 50%; /* Membuat gambar sesuai lebar kontainer */
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #c62828; /* Warna merah */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px black;
+
+}
+
+footer p {
+    font-size: 14px;
+}

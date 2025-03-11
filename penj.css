@@ -1,0 +1,104 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #3C3D37;
+}
+
+a {
+    text-decoration: none;
+    color: #c62828;
+    background-color: #3C3D37;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 150px;
+    transition: .5s ease-in-out;
+}
+
+a:hover {
+    background-color: #c62828;
+    color: white;
+    text-shadow: 0 0 5px #c62828;
+}
+
+.service {
+    color: white;
+    margin: 3% 5% 7% 5%;
+}
+
+.main-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main-text h2{
+    font-weight: 700;
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    color: crimson;
+    text-shadow: 0 0 10px #ff0000;
+}
+
+.main-text span {
+    color: #fdfdfd;
+    font-size: .8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #fdfdfd;
+}
+
+.sections-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 2rem;
+}
+
+.sections-service .service-box {
+    flex: 1 1 18rem;
+    padding: 2rem 1rem 2rem;
+    text-align: center;
+    background: #3C3D37;
+    transition: transfrom .4s;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff0000;
+    transition: .4s ease-in-out;
+}
+
+.service-box:hover {
+    transform: translateY(-.7rem);
+    background: crimson;
+    transition: .4s ease-in-out;
+}
+
+.service-icon {
+    border: 2px solid crimson;
+    padding: 1rem;
+    background: #151515;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    position: relative;
+    color: crimson;
+    box-shadow: #ff0000;
+    outline: 3px solid var(--bg-color);
+}
+
+.service-box h3 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    text-shadow: 0 0 5px white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.service-box p {
+    margin: .5rem 0 1.5rem 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #bdbdbd;
+    line-height: 1.6;
+}
+
